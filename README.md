@@ -57,5 +57,9 @@ Representación de la infraestructura jerárquica del sistema de nombres de domi
 La recolección se realiza mediante el script `Tarea4.py`, desarrollado sobre el entorno **Python 3**. Hace uso de la librería especializada `dnspython` para interactuar con servidores DNS autoritativos y resolver las consultas de registros de seguridad con los flags extendidos de EDNS (DNSSEC OK).
 
 ```
+git clone https://github.com/TheOnlyFakeCoder/DSvalidaci-n.git
+cd DSvalidaci-n
+pip install -r requirements.txt
+python Tarea4.py
 
 ```
