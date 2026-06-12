@@ -1,0 +1,51 @@
+Dominio,DNSSEC activo (sí/no),valida (sí/no),motivo de fallo si lo hay,NSEC (NSEC/NSEC3/na),algoritmo,keysize bits,RRset firmadas,DS en zona padre (sí/no),observaciones adicionales
+gob.mx,sí,sí,na,NSEC3,RSASHA256,"1056, 2080",sí,sí,
+sat.gob.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+presidencia.gob.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+hacienda.gob.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+economia.gob.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+salud.gob.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+sep.gob.mx,sí,no,Isla de confianza: Sin DS en zona padre,NSEC3,RSASHA256,"2080, 1056",sí,no,
+imss.gob.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+ine.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+scjn.gob.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+unam.mx,sí,sí,na,NSEC,ECDSAP256SHA256,256,sí,sí,
+tec.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+ipn.mx,sí,no,Isla de confianza: Sin DS en zona padre,NSEC3,RSASHA512,2080,sí,no,
+uam.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+udg.mx,sí,no,Isla de confianza: Sin DS en zona padre,NSEC3,RSASHA1-NSEC3-SHA1,"2080, 1056",sí,no,
+buap.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+uanl.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+colmex.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+itam.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+anahuac.mx,sí,sí,na,na,ECDSAP256SHA256,256,sí,sí,Error NSEC: NoAnswer
+santander.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+bb.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+banamex.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+bbva.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+banorte.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+hsbc.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+scotiabank.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+inbursa.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+banregio.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+afirme.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+amazon.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+mercadolibre.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+walmart.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+liverpool.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+sears.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+sanborns.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+homedepot.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+costco.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+cyberpuerta.mx,sí,no,Isla de confianza: Sin DS en zona padre,na,ECDSAP256SHA256,256,sí,no,Error NSEC: NoAnswer
+officedepot.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+eluniversal.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+mural.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+proceso.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+jornada.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+excelsior.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+eleconomista.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+expansion.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+forbes.com.mx,sí,no,Isla de confianza: Sin DS en zona padre,na,ECDSAP256SHA256,256,sí,no,Error NSEC: NoAnswer
+radioformula.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
+nmas.com.mx,no,no,na,na,na,na,no,no,Dominio tradicional sin firmas criptográficas
